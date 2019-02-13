@@ -47,8 +47,22 @@ src : 비디오 파일 경로 지정
 --------------------------------------------------------------------------------------------------------------------------------------
 
 input Tag
-한줄 입력 : input type="text"
-비밀번호 입력 : type="password"
+한줄 입력 : input type="text" value : 초기값 placeholder : 초기값(값이 없을 경우 보임)
+비밀번호 입력 : type="password" value : 초기값
 라디오 버튼(버튼명 설정) : type="radio" name=""
 체크박스 : type="checkbox"
-submit : type="submit" value"박스명"
+제출 버튼 : type="submit" value="박스명"
+초기화 버튼 : type="reset" value="박스명" form 태그 내부 초기화
+일반 버튼 : type="button" value="박스명"
+hidden 처리 : type="hidden" value="박스명"
+파일 버튼 : type="file"
+select box : <select> <option></option><option></option><option></option>... </select>
+
+form
+페이지 행동 태그
+action : 이동할 페이지 지정
+
+textarea
+두 줄 이상의 글자를 입력할 떄 이용
+rows cols : 가로 세로 길이
+
