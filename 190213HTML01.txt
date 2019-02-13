@@ -36,3 +36,19 @@ Img Tag
 src : 이미지 경로 지정
 alt : 이미지가 없을 때의 글 지정
 width, height : 너비 높이 지정(%, px)
+
+Audio
+src : 음악 파일 경로 지정
+controls : 음악 재생 도구 출력
+
+Video
+src : 비디오 파일 경로 지정
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+input Tag
+한줄 입력 : input type="text"
+비밀번호 입력 : type="password"
+라디오 버튼(버튼명 설정) : type="radio" name=""
+체크박스 : type="checkbox"
+submit : type="submit" value"박스명"
