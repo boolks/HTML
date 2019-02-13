@@ -66,3 +66,15 @@ textarea
 두 줄 이상의 글자를 입력할 떄 이용
 rows cols : 가로 세로 길이
 
+div : block 형식으로 공간 분할
+span : inline 형식으로 공간 분할
+
+시멘틱Tag
+특정한 태그에 의미를 부여해서 만듦
+
+header : 헤더
+nav : 네비게이터
+aside : 사이드에 위치하는 공간
+section : 중심 내용을 감싸는 공간
+article : 글자가 많이 들어가는 부분
+footer : 푸터 (가장 하단에 들어가는 copyright)
