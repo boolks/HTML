@@ -21,3 +21,26 @@ background : 배경색 지정
 [id ^= tag] : tag로 시작하는 id 문자열에 대해 스타일 적용
 [id $= tag] : tag로 끝나는 id 문자열에 대해 스타일 적용
 [id *= tag] : tag를 포함하는 id 문자열에 대해 스타일 적용
+
+tagA > tagB : tagA 아래에 있는 자손 태그 tagB에 대해 스타일 적용
+tagA tagB : tagA 아래에 있는 후손 태그 tagB에 대해 스타일 적용
+
+tagA + tagB : 동급의 위치에 있을 때 tagA 바로 아래에 있는 tagB에 대해 스타일 적용
+tagA ~ tagB : 동급의 위치에 있을 때 tagA 아래에 있는 모든 tagB에 대해 스타일 적용
+
+반응선택자
+:active : 마우스로 클릭한 태그를 선택
+:hover : 마우스 커서를 올린 태그를 선택
+:checked : 체크 상태의 input 태그 선택
+:focused : focus 상태의 input 태그 선택
+:enabled : enabled 상태의 input 태그 선택
+:disabled : disabled 상태의 input 태그 선택
+
+:first-child : 처음 자손 선택
+:last-child : 마지막 자손 선택
+:nth-child(수열) : 앞에서 수열번째 위치 자손 선택
+:nth-last-child(수열) : 뒤에서 수열번째 위치 자손 선택
+:first-of-type : 자손 중에서 첫 번째 등장하는 태그 선택
+:last-of-type : 자손 중에서 마지막 등장하는 태그 선택
+:nth-of-type : 자손 중에서 앞에서 수열번째 등장 태그 선택
+:nth-last-of-type : 자손 중에서 뒤에서 수열번째 등장 태그 
