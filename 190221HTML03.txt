@@ -1,0 +1,31 @@
+HTML 3일차 강의
+----------------------------------------------------------------------------------------------------------------------------------------
+Inner class
+함수의 충돌을 방지하고자 사용하는 내부 함수
+
+callback 함수
+매개변수로 전달하는 함수
+
+함수를 리턴하는 함수
+클로저를 위해 리턴함수 사용
+
+클로저
+지역 변수를 남기는 현상
+리턴된 함수 자체
+
+타이머 함수
+setTimeout(function, milesec) : 일정 시간 후 함수를 한 번 실행 
+setInterval(function, milesec) : 일정 시간 후 함수를 반복해서 실행
+clearTimeout(icl) : 실행 중단
+clearInterval(icl) : 반복 중단
+
+encodeURI(URI) : 인코딩
+decodeURI(URI) : 디코딩
+
+eval() : 코드실행함수
+
+isFinite() : 무한하면 false 반환, 유한하면 true 반환
+isNaN() : 값이 NaN(계산 가능한지 아닌지)인지 확인
+
+parseInt(String) : string을 정수로 변환
+parseFloat(String) : string을 
