@@ -18,3 +18,6 @@ getAttribute(name) : 객체 속성 가져옴
 getElementById(id) : Id태그 속성이 일치하는 문서를 가져옴
 getElementsByName(name) : name 속성이 name과 일치하는 문서를 가져옴
 getElementsByTagName(tagName) : tag 속성이 tag와 일치하는 문서를 가져옴
+
+querySelector(tag || name || etc) : 특정 속성과 일치하는 문서를 가져옴
+querySelectorAll(tag || name || etc) : 특정 속성과 일치하는 모든 문서를 가져옴 ,를 이용하여 여러개 사용 가능
